@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		619076FD1D87992000D33357 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 619076FC1D87992000D33357 /* Constants.m */; };
+		633264B41D829B4E000F4C5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 633264B31D829B4E000F4C5D /* AppDelegate.m */; };
+		633264B71D829B4E000F4C5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 633264B61D829B4E000F4C5D /* main.m */; };
+		633264B91D829B4E000F4C5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633264B81D829B4E000F4C5D /* Assets.xcassets */; };
+		633264BC1D829B4E000F4C5D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 633264BA1D829B4E000F4C5D /* MainMenu.xib */; };
+		633264C71D829B4E000F4C5D /* BLEForMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 633264C61D829B4E000F4C5D /* BLEForMacTests.m */; };
+		633264D21D829B4E000F4C5D /* BLEForMacUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 633264D11D829B4E000F4C5D /* BLEForMacUITests.m */; };
+		633264E21D829B90000F4C5D /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633264E01D829B90000F4C5D /* MainWindowController.m */; };
+		633264E31D829B90000F4C5D /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 633264E11D829B90000F4C5D /* MainWindowController.xib */; };
+		633264E71D829D05000F4C5D /* ContactWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633264E51D829D05000F4C5D /* ContactWindowController.m */; };
+		633264E81D829D05000F4C5D /* ContactWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 633264E61D829D05000F4C5D /* ContactWindowController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		633264C31D829B4E000F4C5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 633264A71D829B4E000F4C5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 633264AE1D829B4E000F4C5D;
+			remoteInfo = BLEForMac;
+		};
+		633264CE1D829B4E000F4C5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 633264A71D829B4E000F4C5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 633264AE1D829B4E000F4C5D;
+			remoteInfo = BLEForMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		619076FB1D87992000D33357 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		619076FC1D87992000D33357 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		633264AF1D829B4E000F4C5D /* BLEForMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEForMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		633264B21D829B4E000F4C5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		633264B31D829B4E000F4C5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		633264B61D829B4E000F4C5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		633264B81D829B4E000F4C5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		633264BB1D829B4E000F4C5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		633264BD1D829B4E000F4C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633264C21D829B4E000F4C5D /* BLEForMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLEForMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		633264C61D829B4E000F4C5D /* BLEForMacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLEForMacTests.m; sourceTree = "<group>"; };
+		633264C81D829B4E000F4C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633264CD1D829B4E000F4C5D /* BLEForMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLEForMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		633264D11D829B4E000F4C5D /* BLEForMacUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLEForMacUITests.m; sourceTree = "<group>"; };
+		633264D31D829B4E000F4C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633264DF1D829B90000F4C5D /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		633264E01D829B90000F4C5D /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		633264E11D829B90000F4C5D /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		633264E41D829D05000F4C5D /* ContactWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactWindowController.h; sourceTree = "<group>"; };
+		633264E51D829D05000F4C5D /* ContactWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactWindowController.m; sourceTree = "<group>"; };
+		633264E61D829D05000F4C5D /* ContactWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactWindowController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		633264AC1D829B4E000F4C5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633264BF1D829B4E000F4C5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633264CA1D829B4E000F4C5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		633264A61D829B4E000F4C5D = {
+			isa = PBXGroup;
+			children = (
+				633264B11D829B4E000F4C5D /* BLEForMac */,
+				633264C51D829B4E000F4C5D /* BLEForMacTests */,
+				633264D01D829B4E000F4C5D /* BLEForMacUITests */,
+				633264B01D829B4E000F4C5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		633264B01D829B4E000F4C5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				633264AF1D829B4E000F4C5D /* BLEForMac.app */,
+				633264C21D829B4E000F4C5D /* BLEForMacTests.xctest */,
+				633264CD1D829B4E000F4C5D /* BLEForMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		633264B11D829B4E000F4C5D /* BLEForMac */ = {
+			isa = PBXGroup;
+			children = (
+				633264E41D829D05000F4C5D /* ContactWindowController.h */,
+				633264E51D829D05000F4C5D /* ContactWindowController.m */,
+				633264E61D829D05000F4C5D /* ContactWindowController.xib */,
+				633264DF1D829B90000F4C5D /* MainWindowController.h */,
+				633264E01D829B90000F4C5D /* MainWindowController.m */,
+				633264E11D829B90000F4C5D /* MainWindowController.xib */,
+				633264B21D829B4E000F4C5D /* AppDelegate.h */,
+				633264B31D829B4E000F4C5D /* AppDelegate.m */,
+				619076FB1D87992000D33357 /* Constants.h */,
+				619076FC1D87992000D33357 /* Constants.m */,
+				633264B81D829B4E000F4C5D /* Assets.xcassets */,
+				633264BA1D829B4E000F4C5D /* MainMenu.xib */,
+				633264BD1D829B4E000F4C5D /* Info.plist */,
+				633264B51D829B4E000F4C5D /* Supporting Files */,
+			);
+			path = BLEForMac;
+			sourceTree = "<group>";
+		};
+		633264B51D829B4E000F4C5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				633264B61D829B4E000F4C5D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		633264C51D829B4E000F4C5D /* BLEForMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				633264C61D829B4E000F4C5D /* BLEForMacTests.m */,
+				633264C81D829B4E000F4C5D /* Info.plist */,
+			);
+			path = BLEForMacTests;
+			sourceTree = "<group>";
+		};
+		633264D01D829B4E000F4C5D /* BLEForMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				633264D11D829B4E000F4C5D /* BLEForMacUITests.m */,
+				633264D31D829B4E000F4C5D /* Info.plist */,
+			);
+			path = BLEForMacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		633264AE1D829B4E000F4C5D /* BLEForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633264D61D829B4E000F4C5D /* Build configuration list for PBXNativeTarget "BLEForMac" */;
+			buildPhases = (
+				633264AB1D829B4E000F4C5D /* Sources */,
+				633264AC1D829B4E000F4C5D /* Frameworks */,
+				633264AD1D829B4E000F4C5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLEForMac;
+			productName = BLEForMac;
+			productReference = 633264AF1D829B4E000F4C5D /* BLEForMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		633264C11D829B4E000F4C5D /* BLEForMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633264D91D829B4E000F4C5D /* Build configuration list for PBXNativeTarget "BLEForMacTests" */;
+			buildPhases = (
+				633264BE1D829B4E000F4C5D /* Sources */,
+				633264BF1D829B4E000F4C5D /* Frameworks */,
+				633264C01D829B4E000F4C5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				633264C41D829B4E000F4C5D /* PBXTargetDependency */,
+			);
+			name = BLEForMacTests;
+			productName = BLEForMacTests;
+			productReference = 633264C21D829B4E000F4C5D /* BLEForMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		633264CC1D829B4E000F4C5D /* BLEForMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633264DC1D829B4E000F4C5D /* Build configuration list for PBXNativeTarget "BLEForMacUITests" */;
+			buildPhases = (
+				633264C91D829B4E000F4C5D /* Sources */,
+				633264CA1D829B4E000F4C5D /* Frameworks */,
+				633264CB1D829B4E000F4C5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				633264CF1D829B4E000F4C5D /* PBXTargetDependency */,
+			);
+			name = BLEForMacUITests;
+			productName = BLEForMacUITests;
+			productReference = 633264CD1D829B4E000F4C5D /* BLEForMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		633264A71D829B4E000F4C5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Jewel;
+				TargetAttributes = {
+					633264AE1D829B4E000F4C5D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					633264C11D829B4E000F4C5D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 633264AE1D829B4E000F4C5D;
+					};
+					633264CC1D829B4E000F4C5D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 633264AE1D829B4E000F4C5D;
+					};
+				};
+			};
+			buildConfigurationList = 633264AA1D829B4E000F4C5D /* Build configuration list for PBXProject "BLEForMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 633264A61D829B4E000F4C5D;
+			productRefGroup = 633264B01D829B4E000F4C5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				633264AE1D829B4E000F4C5D /* BLEForMac */,
+				633264C11D829B4E000F4C5D /* BLEForMacTests */,
+				633264CC1D829B4E000F4C5D /* BLEForMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		633264AD1D829B4E000F4C5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633264E81D829D05000F4C5D /* ContactWindowController.xib in Resources */,
+				633264B91D829B4E000F4C5D /* Assets.xcassets in Resources */,
+				633264E31D829B90000F4C5D /* MainWindowController.xib in Resources */,
+				633264BC1D829B4E000F4C5D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633264C01D829B4E000F4C5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633264CB1D829B4E000F4C5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		633264AB1D829B4E000F4C5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619076FD1D87992000D33357 /* Constants.m in Sources */,
+				633264E71D829D05000F4C5D /* ContactWindowController.m in Sources */,
+				633264E21D829B90000F4C5D /* MainWindowController.m in Sources */,
+				633264B71D829B4E000F4C5D /* main.m in Sources */,
+				633264B41D829B4E000F4C5D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633264BE1D829B4E000F4C5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633264C71D829B4E000F4C5D /* BLEForMacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633264C91D829B4E000F4C5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633264D21D829B4E000F4C5D /* BLEForMacUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		633264C41D829B4E000F4C5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 633264AE1D829B4E000F4C5D /* BLEForMac */;
+			targetProxy = 633264C31D829B4E000F4C5D /* PBXContainerItemProxy */;
+		};
+		633264CF1D829B4E000F4C5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 633264AE1D829B4E000F4C5D /* BLEForMac */;
+			targetProxy = 633264CE1D829B4E000F4C5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		633264BA1D829B4E000F4C5D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				633264BB1D829B4E000F4C5D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		633264D41D829B4E000F4C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		633264D51D829B4E000F4C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		633264D71D829B4E000F4C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BLEForMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jewel.BLEForMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		633264D81D829B4E000F4C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BLEForMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jewel.BLEForMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		633264DA1D829B4E000F4C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BLEForMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jewel.BLEForMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLEForMac.app/Contents/MacOS/BLEForMac";
+			};
+			name = Debug;
+		};
+		633264DB1D829B4E000F4C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BLEForMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jewel.BLEForMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLEForMac.app/Contents/MacOS/BLEForMac";
+			};
+			name = Release;
+		};
+		633264DD1D829B4E000F4C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BLEForMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jewel.BLEForMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BLEForMac;
+			};
+			name = Debug;
+		};
+		633264DE1D829B4E000F4C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BLEForMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jewel.BLEForMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BLEForMac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		633264AA1D829B4E000F4C5D /* Build configuration list for PBXProject "BLEForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633264D41D829B4E000F4C5D /* Debug */,
+				633264D51D829B4E000F4C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		633264D61D829B4E000F4C5D /* Build configuration list for PBXNativeTarget "BLEForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633264D71D829B4E000F4C5D /* Debug */,
+				633264D81D829B4E000F4C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		633264D91D829B4E000F4C5D /* Build configuration list for PBXNativeTarget "BLEForMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633264DA1D829B4E000F4C5D /* Debug */,
+				633264DB1D829B4E000F4C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		633264DC1D829B4E000F4C5D /* Build configuration list for PBXNativeTarget "BLEForMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633264DD1D829B4E000F4C5D /* Debug */,
+				633264DE1D829B4E000F4C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 633264A71D829B4E000F4C5D /* Project object */;
+}
