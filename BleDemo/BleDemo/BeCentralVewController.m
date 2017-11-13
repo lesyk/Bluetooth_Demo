@@ -49,7 +49,7 @@
     }
     
     cell.textLabel.text = [_deviceList objectAtIndex:indexPath.row];
-    cell.detailTextLabel.text = @"未连接";
+    cell.detailTextLabel.text = @"not connected";
     return cell;
 }
 
@@ -103,7 +103,7 @@
     NSLog(@">>>Peripheral named %@ disconnect: %@\n", [peripheral name], [error localizedDescription]);
     NSIndexPath *indexPath = _deviceTable.indexPathForSelectedRow;
     UITableViewCell *cell = [_deviceTable cellForRowAtIndexPath:indexPath];
-    cell.detailTextLabel.text = @"未连接";
+    cell.detailTextLabel.text = @"not connected";
     [_deviceTable reloadData];
     
 }
@@ -114,7 +114,7 @@
     
     NSIndexPath *indexPath = _deviceTable.indexPathForSelectedRow;
     UITableViewCell *cell = [_deviceTable cellForRowAtIndexPath:indexPath];
-    cell.detailTextLabel.text = @"已连接";
+    cell.detailTextLabel.text = @"Connected";
     
     mvc = [self.storyboard instantiateViewControllerWithIdentifier:@"MessageViewController"];
     mvc.connectedDeviceName = peripheral.name;

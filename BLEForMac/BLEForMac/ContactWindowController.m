@@ -27,8 +27,8 @@
     if (peripheral.state != CBPeripheralManagerStatePoweredOn) {
         NSLog(@">>>Powered off");
         NSAlert *hint = [[NSAlert alloc] init];
-        [hint addButtonWithTitle:@"确定"];
-        [hint setInformativeText:@"没有打开蓝牙，请打开蓝牙"];
+        [hint addButtonWithTitle:@"Define"];
+        [hint setInformativeText:@"Bluetooth is turned off, turn on it"];
         [hint setAlertStyle:NSWarningAlertStyle];
         [hint runModal];
         return;
@@ -63,8 +63,8 @@
 - (void)peripheralManager:(CBPeripheralManager *)peripheral central:(CBCentral *)central didUnsubscribeFromCharacteristic:(CBCharacteristic *)characteristic {
     NSLog(@"Central unsubscribed to characteristic %@",characteristic.UUID);
     NSAlert *hint = [[NSAlert alloc] init];
-    [hint addButtonWithTitle:@"确定"];
-    [hint setInformativeText:@"中心设备断开连接，请检查中心设备！"];
+    [hint addButtonWithTitle:@"Define"];
+    [hint setInformativeText:@"Disconnect the center equipment, please check the center equipment！"];
     [hint setAlertStyle:NSWarningAlertStyle];
     [hint runModal];
     [self.window orderOut:nil];
@@ -224,7 +224,7 @@
     // Only choose picture
     panel.allowedFileTypes = [NSArray arrayWithObjects: @"png", @"jpg", nil];
     [panel setMessage:@""];
-    [panel setPrompt:@"发送"];
+    [panel setPrompt:@"Send"];
     [panel setCanChooseDirectories:NO];
     [panel setCanCreateDirectories:NO];
     [panel setCanChooseFiles:YES];
@@ -238,7 +238,7 @@
         _imgData = [img TIFFRepresentation];
         [self sendImageData];
         self.imgURL.stringValue = path_all;
-        self.choosePicBtn.title = @"重新选择";
+        self.choosePicBtn.title = @"Reselect";
     }
 }
 

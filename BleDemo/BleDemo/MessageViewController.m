@@ -13,7 +13,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    _titleLabel.text = [[NSString alloc] initWithFormat:@"已连接的电脑: %@", _connectedDeviceName];
+    _titleLabel.text = [[NSString alloc] initWithFormat:@"Connected computer: %@", _connectedDeviceName];
     _receivedTextView.layer.borderWidth = 1.0;
     _receivedTextView.layer.borderColor = [UIColor darkGrayColor].CGColor;
     _receivedImageView.layer.borderWidth = 1.0;
