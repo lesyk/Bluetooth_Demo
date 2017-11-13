@@ -1,11 +1,3 @@
-//
-//  Constants.m
-//  BLEForMac
-//
-//  Created by 林国盛 on 16/9/13.
-//  Copyright © 2016年 Jewel. All rights reserved.
-//
-
 #import "Constants.h"
 
 NSString * const kTransferImageCharacteristicUUID = @"FFF1";

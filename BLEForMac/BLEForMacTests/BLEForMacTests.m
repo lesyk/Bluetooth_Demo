@@ -1,11 +1,3 @@
-//
-//  BLEForMacTests.m
-//  BLEForMacTests
-//
-//  Created by Jewel on 16/9/9.
-//  Copyright © 2016年 Jewel. All rights reserved.
-//
-
 #import <XCTest/XCTest.h>
 
 @interface BLEForMacTests : XCTestCase

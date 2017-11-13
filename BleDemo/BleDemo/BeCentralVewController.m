@@ -1,11 +1,3 @@
-//
-//  BeCentraliewController.m
-//  BleDemo
-//
-//  Created by 林国盛 on 16/9/6.
-//  Copyright © 2016年 林国盛. All rights reserved.
-//
-
 #import "BeCentralVewController.h"
 #import "MessageViewController.h"
 #import "Constants.h"
